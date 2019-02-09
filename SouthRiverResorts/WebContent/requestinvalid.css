@@ -1,0 +1,14 @@
+body {
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+h1 {
+	font: 16pt ariel, sans-serif;
+	font-weight: bold;
+}
+
+h1+p {
+	font: 12pt ariel, sans-serif;
+	
+}

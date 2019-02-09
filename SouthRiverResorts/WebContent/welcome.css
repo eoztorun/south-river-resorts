@@ -1,0 +1,50 @@
+body {
+	background-image: url("backgroundIMG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 5%;
+	margin-right: 20%;
+	margin-bottom: 20%;
+	margin-left: 20%;
+}
+
+h1 {
+	font: 32pt Courier, monospace;
+	text-decoration: underline;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+h1+p.userMessage {
+	font: 10pt Courier, monospace;
+	text-align: center;
+}
+
+form+p.userMessage {
+	font: 10pt Courier, monospace;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+
+table {
+	font: 12pt Courier, monospace;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+input[type=submit] {
+	font: 12pt Courier, monospace;
+	text-align: center;
+}
+
+input[type="password"],input[type="text"] {
+	width: 140px;
+	font: 12pt Courier, monospace;
+	font-weight: normal;
+}
+
+tr>td>div {
+	margin-top: 25px;
+	text-align: center;
+}

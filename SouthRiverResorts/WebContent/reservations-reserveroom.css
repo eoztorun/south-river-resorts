@@ -1,0 +1,35 @@
+body {
+	background-image: url("Light-Green.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p {
+	text-align: center;
+}
+
+table {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	width: 40%;
+}
+
+th {
+	height: 10px;
+	padding: 10px;
+}
+
+table,th,td {
+	border: 2px solid black;
+	font: 12pt Courier, monospace;
+	text-align: center;
+	table-layout: auto;
+	border-collapse: collapse;
+	border-spacing: 10px;
+	vertical-align: center;
+}
+input[type=submit] {
+	font: 12pt Courier, monospace;
+	width: 10em;  
+	height: 1.5em;
+}

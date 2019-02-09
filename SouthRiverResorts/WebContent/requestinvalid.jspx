@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Author: Martyn Whanslaw -->
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+	<jsp:directive.page language="java"
+		contentType="application/xhtml+xml; charset=UTF-8"
+		pageEncoding="UTF-8" />
+	<jsp:output omit-xml-declaration="no" doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.1//EN"
+		doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" />
+	<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="requestinvalid.css" />
+<title>Request Invalid</title>
+</head>
+<body>
+	<h1>The request specified is not valid . . .</h1>
+	<p>
+		Please attempt your request again <a href=".">here.</a>
+	</p>
+</body>
+	</html>
+</jsp:root>

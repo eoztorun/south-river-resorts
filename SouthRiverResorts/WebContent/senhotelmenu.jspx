@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Author: Ecenur Oztorun -->
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page language="java" />
+<div id="user_info">
+<p>Logged in as: ${firstName}  ${lastName}<br />
+Number of rooms reserved: ${nRooms}</p>
+</div>
+<div class="menu_area">
+<div class="menu_header">
+<p class="title">South River Resorts</p>
+</div>
+<p class="text_center">
+<span class="menu_item"><a class="heading" href="reserveroom.jspx" title="Reserve a Room">Reserve a Room</a>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>
+<span class="menu_item"><a class="heading" href="reservations.jspx" title="Go to Reservations">View Reservations</a>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>
+<span class="menu_item"><a class="heading" href="logout.jspx" title="Logout">Logout</a>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>
+</p>
+</div>
+</jsp:root>
